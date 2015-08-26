@@ -1,0 +1,14 @@
+PODS:
+  - TPTOnboardingController (0.1.0)
+
+DEPENDENCIES:
+  - TPTOnboardingController (from `../`)
+
+EXTERNAL SOURCES:
+  TPTOnboardingController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TPTOnboardingController: 56515657b5cf94c848542ff3c6c696da6677f799
+
+COCOAPODS: 0.38.2

@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E05DFF6FCD3ADB6E44BC8914E82275 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FF74D389C32769EF18C61083CCC151 /* Foundation.framework */; };
+		09A86C73197AFB41613D8B92DDE7B768 /* TPTOnboardingController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A02D5E86EFDDB973B90A2C78EBCBE127 /* TPTOnboardingController.bundle */; };
+		1FAC07B6427C729F83F325575E45CE57 /* TPTOnboardingController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF148989DD32740F7B5813DE090E833A /* TPTOnboardingController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23013FAC8D3DCD8334BE7530F17C64FB /* TPTOnboardingController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEDFE27995F2D4632F539205893C0AE /* TPTOnboardingController-dummy.m */; };
+		2E1A3BC2F470625DE9C54F482516C62D /* Pods-TPTOnboardingController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DA38635DC64560B9726BBA2BF3EB1D /* Pods-TPTOnboardingController_Example-dummy.m */; };
+		376FAEC91B8E307E00CED0B2 /* TPTOnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376FAEC71B8E307500CED0B2 /* TPTOnboardingController.swift */; settings = {ASSET_TAGS = (); }; };
+		815164EFCBF9987D710C843FAA63D957 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FF74D389C32769EF18C61083CCC151 /* Foundation.framework */; };
+		9F59FDC245C518EF3DB550ED2CD6DE3B /* Pods-TPTOnboardingController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D58F151DC8002C8333E9D5D9E45D2BD9 /* Pods-TPTOnboardingController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45DC166C27F142A37902B341107BF97 /* Pods-TPTOnboardingController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6583F94BFEE0FC9B6221AC2FA5700F /* Pods-TPTOnboardingController_Tests-dummy.m */; };
+		B32C85207225DF62904BF1E4995786FF /* Pods-TPTOnboardingController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA24F1A5CCB65260E1633B5357421D98 /* Pods-TPTOnboardingController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E69AAC3822DC6BB339AB867F47139ACF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FF74D389C32769EF18C61083CCC151 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46F1BC3F64F5BD291B89B8F36C9AA585 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C370EB02F65CD02D81EBFE1747038F2E;
+			remoteInfo = TPTOnboardingController;
+		};
+		5CFB63DE939D2E16FB8E5E059E331697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C370EB02F65CD02D81EBFE1747038F2E;
+			remoteInfo = TPTOnboardingController;
+		};
+		87839B929595C5812C6994F3FAEA4DEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F15D802E2590B330A55D7A358282F16;
+			remoteInfo = "TPTOnboardingController-TPTOnboardingController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047745AD6A9EFCBD52D2F5E9A19A3C39 /* TPTOnboardingController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPTOnboardingController.xcconfig; sourceTree = "<group>"; };
+		0CAFCEB981466FDDF26613971F0CC44C /* Pods-TPTOnboardingController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPTOnboardingController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0D6583F94BFEE0FC9B6221AC2FA5700F /* Pods-TPTOnboardingController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPTOnboardingController_Tests-dummy.m"; sourceTree = "<group>"; };
+		0E2D122B16FE17172F8E9C0AD83913B0 /* TPTOnboardingController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TPTOnboardingController-Private.xcconfig"; sourceTree = "<group>"; };
+		188948505384AF7442CBF76A90A3121D /* Pods-TPTOnboardingController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TPTOnboardingController_Example.modulemap"; sourceTree = "<group>"; };
+		1BB5ED5CE28B71DDFF57E628EE5BA4D4 /* Pods-TPTOnboardingController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPTOnboardingController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		376FAEC71B8E307500CED0B2 /* TPTOnboardingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TPTOnboardingController.swift; sourceTree = "<group>"; };
+		439E34DC8ACBD6F1F99477D6A674324C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AEDFE27995F2D4632F539205893C0AE /* TPTOnboardingController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPTOnboardingController-dummy.m"; sourceTree = "<group>"; };
+		5B335E05CA7D11A46190F194C5F3C5E4 /* Pods-TPTOnboardingController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPTOnboardingController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		631FAC4DDEC6BED7CC9DBC207599A0E6 /* Pods-TPTOnboardingController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPTOnboardingController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6D17CDD093859B8DE39E10B77D29E4C7 /* Pods_TPTOnboardingController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPTOnboardingController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7325BF814309B355D9B721A833C0D5A1 /* Pods-TPTOnboardingController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPTOnboardingController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		749E504D6431752C4A659299303476B4 /* Pods-TPTOnboardingController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TPTOnboardingController_Tests.modulemap"; sourceTree = "<group>"; };
+		769F872A61B461668C8AC62DFE1C1406 /* Pods_TPTOnboardingController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPTOnboardingController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A72FDAC42CF98BFC67EC3817CFC8D93 /* Pods-TPTOnboardingController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPTOnboardingController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E9A82A3F807C994514BA57B6AF1DD68 /* TPTOnboardingController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPTOnboardingController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87F94DC0DBEF5BF4C3805E3941D302A1 /* TPTOnboardingController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPTOnboardingController-prefix.pch"; sourceTree = "<group>"; };
+		A02D5E86EFDDB973B90A2C78EBCBE127 /* TPTOnboardingController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPTOnboardingController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54D995D51196F880A59C0F4DE932E58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC34362C596ABD915EBB4E7316F074BC /* Pods-TPTOnboardingController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPTOnboardingController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE4457F97A4DFBC69B5175546D96A3BA /* Pods-TPTOnboardingController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPTOnboardingController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C047CF6096F08B9CAA2AAAF526D969AA /* Pods-TPTOnboardingController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPTOnboardingController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C474CC13EE34007D06C4B9DEB1531A8C /* Pods-TPTOnboardingController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPTOnboardingController_Example-resources.sh"; sourceTree = "<group>"; };
+		CA24F1A5CCB65260E1633B5357421D98 /* Pods-TPTOnboardingController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPTOnboardingController_Example-umbrella.h"; sourceTree = "<group>"; };
+		CDF9581983519263B0898B396AA087F2 /* Pods-TPTOnboardingController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPTOnboardingController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D58F151DC8002C8333E9D5D9E45D2BD9 /* Pods-TPTOnboardingController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPTOnboardingController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DE63DBF718AE96A5A2B2F31AAB86EA28 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF42E4F2816B39D37E8BF1CE21BD8BE5 /* Pods-TPTOnboardingController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPTOnboardingController_Tests-resources.sh"; sourceTree = "<group>"; };
+		E4FF74D389C32769EF18C61083CCC151 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EE2A89E3CE397F27545AC912D605E96B /* TPTOnboardingController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TPTOnboardingController.modulemap; sourceTree = "<group>"; };
+		F9DA38635DC64560B9726BBA2BF3EB1D /* Pods-TPTOnboardingController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPTOnboardingController_Example-dummy.m"; sourceTree = "<group>"; };
+		FF148989DD32740F7B5813DE090E833A /* TPTOnboardingController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPTOnboardingController-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		406E172A2972F3F441EDB425BF0E8C96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E05DFF6FCD3ADB6E44BC8914E82275 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D73749ED8FBD7B196FB784A9623242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E69AAC3822DC6BB339AB867F47139ACF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBBD18578A30E7432935C112A06C21A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F80B3D38BFCC3C17A8A450B226C7383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815164EFCBF9987D710C843FAA63D957 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09D9C2833BFB59B0E3A4C5F8F9B42265 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C51C3DABBA13213DC2655AA8B38C5CC3 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		121165CA038C83A780A9DCA2D9C73336 /* TPTOnboardingController */ = {
+			isa = PBXGroup;
+			children = (
+				09D9C2833BFB59B0E3A4C5F8F9B42265 /* Pod */,
+				EE79BE3762B2DE95D49A3FF720A5B499 /* Support Files */,
+			);
+			name = TPTOnboardingController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		19C9A44BD41288210A242A3126B68291 /* Pods-TPTOnboardingController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				439E34DC8ACBD6F1F99477D6A674324C /* Info.plist */,
+				188948505384AF7442CBF76A90A3121D /* Pods-TPTOnboardingController_Example.modulemap */,
+				CDF9581983519263B0898B396AA087F2 /* Pods-TPTOnboardingController_Example-acknowledgements.markdown */,
+				BC34362C596ABD915EBB4E7316F074BC /* Pods-TPTOnboardingController_Example-acknowledgements.plist */,
+				F9DA38635DC64560B9726BBA2BF3EB1D /* Pods-TPTOnboardingController_Example-dummy.m */,
+				7325BF814309B355D9B721A833C0D5A1 /* Pods-TPTOnboardingController_Example-frameworks.sh */,
+				C474CC13EE34007D06C4B9DEB1531A8C /* Pods-TPTOnboardingController_Example-resources.sh */,
+				CA24F1A5CCB65260E1633B5357421D98 /* Pods-TPTOnboardingController_Example-umbrella.h */,
+				1BB5ED5CE28B71DDFF57E628EE5BA4D4 /* Pods-TPTOnboardingController_Example.debug.xcconfig */,
+				0CAFCEB981466FDDF26613971F0CC44C /* Pods-TPTOnboardingController_Example.release.xcconfig */,
+			);
+			name = "Pods-TPTOnboardingController_Example";
+			path = "Target Support Files/Pods-TPTOnboardingController_Example";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E4FF74D389C32769EF18C61083CCC151 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				9C5C20BAD81F6E6D2CBE306E0A459F05 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				EA11F56861DC43E7678C89CCECCA162E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9C5C20BAD81F6E6D2CBE306E0A459F05 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				121165CA038C83A780A9DCA2D9C73336 /* TPTOnboardingController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9E10650283930A9D030F2E8A3419219C /* Pods-TPTOnboardingController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B54D995D51196F880A59C0F4DE932E58 /* Info.plist */,
+				749E504D6431752C4A659299303476B4 /* Pods-TPTOnboardingController_Tests.modulemap */,
+				C047CF6096F08B9CAA2AAAF526D969AA /* Pods-TPTOnboardingController_Tests-acknowledgements.markdown */,
+				7A72FDAC42CF98BFC67EC3817CFC8D93 /* Pods-TPTOnboardingController_Tests-acknowledgements.plist */,
+				0D6583F94BFEE0FC9B6221AC2FA5700F /* Pods-TPTOnboardingController_Tests-dummy.m */,
+				631FAC4DDEC6BED7CC9DBC207599A0E6 /* Pods-TPTOnboardingController_Tests-frameworks.sh */,
+				DF42E4F2816B39D37E8BF1CE21BD8BE5 /* Pods-TPTOnboardingController_Tests-resources.sh */,
+				D58F151DC8002C8333E9D5D9E45D2BD9 /* Pods-TPTOnboardingController_Tests-umbrella.h */,
+				5B335E05CA7D11A46190F194C5F3C5E4 /* Pods-TPTOnboardingController_Tests.debug.xcconfig */,
+				BE4457F97A4DFBC69B5175546D96A3BA /* Pods-TPTOnboardingController_Tests.release.xcconfig */,
+			);
+			name = "Pods-TPTOnboardingController_Tests";
+			path = "Target Support Files/Pods-TPTOnboardingController_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C51C3DABBA13213DC2655AA8B38C5CC3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				376FAEC71B8E307500CED0B2 /* TPTOnboardingController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				769F872A61B461668C8AC62DFE1C1406 /* Pods_TPTOnboardingController_Example.framework */,
+				6D17CDD093859B8DE39E10B77D29E4C7 /* Pods_TPTOnboardingController_Tests.framework */,
+				A02D5E86EFDDB973B90A2C78EBCBE127 /* TPTOnboardingController.bundle */,
+				7E9A82A3F807C994514BA57B6AF1DD68 /* TPTOnboardingController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA11F56861DC43E7678C89CCECCA162E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19C9A44BD41288210A242A3126B68291 /* Pods-TPTOnboardingController_Example */,
+				9E10650283930A9D030F2E8A3419219C /* Pods-TPTOnboardingController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EE79BE3762B2DE95D49A3FF720A5B499 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE63DBF718AE96A5A2B2F31AAB86EA28 /* Info.plist */,
+				EE2A89E3CE397F27545AC912D605E96B /* TPTOnboardingController.modulemap */,
+				047745AD6A9EFCBD52D2F5E9A19A3C39 /* TPTOnboardingController.xcconfig */,
+				0E2D122B16FE17172F8E9C0AD83913B0 /* TPTOnboardingController-Private.xcconfig */,
+				5AEDFE27995F2D4632F539205893C0AE /* TPTOnboardingController-dummy.m */,
+				87F94DC0DBEF5BF4C3805E3941D302A1 /* TPTOnboardingController-prefix.pch */,
+				FF148989DD32740F7B5813DE090E833A /* TPTOnboardingController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TPTOnboardingController";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1AE952B8D9C63B8938BFEE390031C569 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32C85207225DF62904BF1E4995786FF /* Pods-TPTOnboardingController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C334A719D2DA78A0755A7F5CD6E2AD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F59FDC245C518EF3DB550ED2CD6DE3B /* Pods-TPTOnboardingController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2182C57D6780A13B434BC29A9DE5A34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FAC07B6427C729F83F325575E45CE57 /* TPTOnboardingController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F15D802E2590B330A55D7A358282F16 /* TPTOnboardingController-TPTOnboardingController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FB926C3DCE86624BBBD0E4E5AD4A9C /* Build configuration list for PBXNativeTarget "TPTOnboardingController-TPTOnboardingController" */;
+			buildPhases = (
+				70EE17D462A4FC0D637F92DF551A5017 /* Sources */,
+				8EBBD18578A30E7432935C112A06C21A /* Frameworks */,
+				55CA75AD031691C57370039E07D565C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TPTOnboardingController-TPTOnboardingController";
+			productName = "TPTOnboardingController-TPTOnboardingController";
+			productReference = A02D5E86EFDDB973B90A2C78EBCBE127 /* TPTOnboardingController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C370EB02F65CD02D81EBFE1747038F2E /* TPTOnboardingController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 060DC86AE2A96B1CAA950D058172E63E /* Build configuration list for PBXNativeTarget "TPTOnboardingController" */;
+			buildPhases = (
+				3DE28D97AE9F5E78CF693FB47219BF14 /* Sources */,
+				85D73749ED8FBD7B196FB784A9623242 /* Frameworks */,
+				B2E7FF753DA5C46D3BF2E10EFFFE4CBE /* Resources */,
+				C2182C57D6780A13B434BC29A9DE5A34 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DE3001844130E3AA871D4A110488901 /* PBXTargetDependency */,
+			);
+			name = TPTOnboardingController;
+			productName = TPTOnboardingController;
+			productReference = 7E9A82A3F807C994514BA57B6AF1DD68 /* TPTOnboardingController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F83D6C51663A12EBCF1149EE3D7CF33A /* Pods-TPTOnboardingController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62DD83C1E0661D2C73388FCCC0E137AD /* Build configuration list for PBXNativeTarget "Pods-TPTOnboardingController_Example" */;
+			buildPhases = (
+				21CECEFA472A9A4C2E1F52B7C99CD37E /* Sources */,
+				9F80B3D38BFCC3C17A8A450B226C7383 /* Frameworks */,
+				1AE952B8D9C63B8938BFEE390031C569 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7F1AD2F1D7A164C72849233AEBFCFB6 /* PBXTargetDependency */,
+			);
+			name = "Pods-TPTOnboardingController_Example";
+			productName = "Pods-TPTOnboardingController_Example";
+			productReference = 769F872A61B461668C8AC62DFE1C1406 /* Pods_TPTOnboardingController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCBBFA0DF9393BEC26707CEA6E7E9050 /* Pods-TPTOnboardingController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CEBBD5AD0ECD45D40D3E4C6F02E4B4 /* Build configuration list for PBXNativeTarget "Pods-TPTOnboardingController_Tests" */;
+			buildPhases = (
+				AF08E33388FEAA480DD8C91523C666BC /* Sources */,
+				406E172A2972F3F441EDB425BF0E8C96 /* Frameworks */,
+				9C334A719D2DA78A0755A7F5CD6E2AD9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0567C5CD300880B81DEC1AC780F5FCB /* PBXTargetDependency */,
+			);
+			name = "Pods-TPTOnboardingController_Tests";
+			productName = "Pods-TPTOnboardingController_Tests";
+			productReference = 6D17CDD093859B8DE39E10B77D29E4C7 /* Pods_TPTOnboardingController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F83D6C51663A12EBCF1149EE3D7CF33A /* Pods-TPTOnboardingController_Example */,
+				FCBBFA0DF9393BEC26707CEA6E7E9050 /* Pods-TPTOnboardingController_Tests */,
+				C370EB02F65CD02D81EBFE1747038F2E /* TPTOnboardingController */,
+				2F15D802E2590B330A55D7A358282F16 /* TPTOnboardingController-TPTOnboardingController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55CA75AD031691C57370039E07D565C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2E7FF753DA5C46D3BF2E10EFFFE4CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A86C73197AFB41613D8B92DDE7B768 /* TPTOnboardingController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21CECEFA472A9A4C2E1F52B7C99CD37E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E1A3BC2F470625DE9C54F482516C62D /* Pods-TPTOnboardingController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DE28D97AE9F5E78CF693FB47219BF14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376FAEC91B8E307E00CED0B2 /* TPTOnboardingController.swift in Sources */,
+				23013FAC8D3DCD8334BE7530F17C64FB /* TPTOnboardingController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70EE17D462A4FC0D637F92DF551A5017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF08E33388FEAA480DD8C91523C666BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45DC166C27F142A37902B341107BF97 /* Pods-TPTOnboardingController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DE3001844130E3AA871D4A110488901 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TPTOnboardingController-TPTOnboardingController";
+			target = 2F15D802E2590B330A55D7A358282F16 /* TPTOnboardingController-TPTOnboardingController */;
+			targetProxy = 87839B929595C5812C6994F3FAEA4DEC /* PBXContainerItemProxy */;
+		};
+		D0567C5CD300880B81DEC1AC780F5FCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPTOnboardingController;
+			target = C370EB02F65CD02D81EBFE1747038F2E /* TPTOnboardingController */;
+			targetProxy = 46F1BC3F64F5BD291B89B8F36C9AA585 /* PBXContainerItemProxy */;
+		};
+		D7F1AD2F1D7A164C72849233AEBFCFB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPTOnboardingController;
+			target = C370EB02F65CD02D81EBFE1747038F2E /* TPTOnboardingController */;
+			targetProxy = 5CFB63DE939D2E16FB8E5E059E331697 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23E924ABAD067E81F0288D453706CC16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E2D122B16FE17172F8E9C0AD83913B0 /* TPTOnboardingController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPTOnboardingController/TPTOnboardingController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPTOnboardingController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TPTOnboardingController/TPTOnboardingController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TPTOnboardingController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4FEBC78741A2D43F780952D6580ADFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E2D122B16FE17172F8E9C0AD83913B0 /* TPTOnboardingController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPTOnboardingController/TPTOnboardingController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPTOnboardingController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TPTOnboardingController/TPTOnboardingController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TPTOnboardingController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5FB5E839A7A4E8DAC82EF4AD79DFCA4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE4457F97A4DFBC69B5175546D96A3BA /* Pods-TPTOnboardingController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPTOnboardingController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TPTOnboardingController_Tests/Pods-TPTOnboardingController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TPTOnboardingController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63CA74589B04C28A00C88F9177BFDD6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E2D122B16FE17172F8E9C0AD83913B0 /* TPTOnboardingController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TPTOnboardingController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9BBF834BB72C4AADE6BC1B2ED12C632E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B335E05CA7D11A46190F194C5F3C5E4 /* Pods-TPTOnboardingController_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPTOnboardingController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TPTOnboardingController_Tests/Pods-TPTOnboardingController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TPTOnboardingController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9D3BC5A105ECF67210C105356861759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CAFCEB981466FDDF26613971F0CC44C /* Pods-TPTOnboardingController_Example.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPTOnboardingController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TPTOnboardingController_Example/Pods-TPTOnboardingController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TPTOnboardingController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD0A407A0FE48EDC16CE0DA284A93469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB5ED5CE28B71DDFF57E628EE5BA4D4 /* Pods-TPTOnboardingController_Example.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPTOnboardingController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TPTOnboardingController_Example/Pods-TPTOnboardingController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TPTOnboardingController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC6CBBAF9CB26C24E4425E4A9A4E7FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E2D122B16FE17172F8E9C0AD83913B0 /* TPTOnboardingController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = TPTOnboardingController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		060DC86AE2A96B1CAA950D058172E63E /* Build configuration list for PBXNativeTarget "TPTOnboardingController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23E924ABAD067E81F0288D453706CC16 /* Debug */,
+				4FEBC78741A2D43F780952D6580ADFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62DD83C1E0661D2C73388FCCC0E137AD /* Build configuration list for PBXNativeTarget "Pods-TPTOnboardingController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0A407A0FE48EDC16CE0DA284A93469 /* Debug */,
+				D9D3BC5A105ECF67210C105356861759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82CEBBD5AD0ECD45D40D3E4C6F02E4B4 /* Build configuration list for PBXNativeTarget "Pods-TPTOnboardingController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BBF834BB72C4AADE6BC1B2ED12C632E /* Debug */,
+				5FB5E839A7A4E8DAC82EF4AD79DFCA4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FB926C3DCE86624BBBD0E4E5AD4A9C /* Build configuration list for PBXNativeTarget "TPTOnboardingController-TPTOnboardingController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CA74589B04C28A00C88F9177BFDD6D /* Debug */,
+				EC6CBBAF9CB26C24E4425E4A9A4E7FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
