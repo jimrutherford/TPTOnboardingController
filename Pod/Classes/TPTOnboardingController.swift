@@ -57,7 +57,7 @@ public class TPTOnboardingController:NSObject {
     */
     public func executeOncePerVersion(closure:(()-> ())?, forKey key:String)
     {
-        executeOnce(closure, executeOtherTimes:nil, forKey:key, perVersion:true ,everyXDays:0)
+        executeOnce(closure, executeOtherTimes:nil, forKey:key, perVersion:true, everyXDays:0)
     }
     
     /*!

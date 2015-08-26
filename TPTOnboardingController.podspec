@@ -19,12 +19,12 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/TPTOnboardingController"
+  s.homepage         = "https://github.com/jimrutherford/TPTOnboardingController"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Jim Rutherford" => "jim@taptonics.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/TPTOnboardingController.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/jimrutherford/TPTOnboardingController.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/jim_rutherford'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
