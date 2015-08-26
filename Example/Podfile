@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'TPTOnboardingController_Example', :exclusive => true do
+  pod "TPTOnboardingController", :path => "../"
+end
+
+target 'TPTOnboardingController_Tests', :exclusive => true do
+  pod "TPTOnboardingController", :path => "../"
+
+  
+end
